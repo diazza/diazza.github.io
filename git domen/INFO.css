@@ -1,0 +1,35 @@
+body{
+  width: 100%;
+  height: 1230px;
+  background: url("assets/img/5-53344_chelsea-london-wallpaper-hd-with-resolution-pixel-chelsea.jpg") bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.photo{
+	margin-left: 450px;
+}
+
+.jose{
+
+	font-size: 15px;
+}
+
+.jos{
+	margin-left: 1180px;
+	font-size: 15px;
+	float:left;
+}
+
+.champion{
+	font-size: 17px;
+}
+
+.form{
+	float: right;
+	font-size: 30px;
+}
+
+
+
+
+
