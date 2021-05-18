@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Karla&family=Vollkorn:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+  
+  <div class="containe">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+      <span class="fs-4" id="element">Портфолио</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#" class="nav-link">Главная</a></li>
+      <li class="nav-item"><a href="#hobby" class="nav-link">Хобби</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
+      
+    </ul>
+  </header>
+  </div>
+
+
+
+  <div class="content">
+  	<center><h1 class="h1">Portfolio</h1><hr></center>
+  	
+
+  	<div class="container">
+  	<div class="row row-cols-2">
+    <div class="col1">
+    	<center><img src="portfolio.jpg" class="img_me" id="img_me"></center>
+    </div>
+    <div class="col2">
+    	
+    		<h1 class="p1">
+    			Абенов 
+    		</h1>
+    		<h1 class="p1">
+    			Диас
+    		</h1>
+
+
+    	
+		<h4 class="p2">Приветствую на своем портфолио здесь вы узнаете обо мне. Люблю слушать музыку, смотреть фильмы, сериалы. Изучаю программирование, занимаюсь спортом.  </h4>
+
+    
+    </div>
+    
+  	</div>
+	</div>
+	<hr>
+	<h2 class="h1" id="hobby">Хобби</h2>
+	<center><div class="container">
+  	<div class="row row-cols-2">
+    <div class="col">
+    	<strong><center><h5 class="p3">Футбол</h5></center></strong>
+    	<p>Фубол занимает большую роль в моих увлечениях. Болею я за Челси. И из за него я полюбил футбол.</p>
+    	<img width="500" height="300" src="football.jpg" class="img_ss">
+    </div><br>
+   
+    <div class="col"><strong><center><h5 class="p3">Компьютерные игры</h6></center></strong>
+      <p>
+        В наше время компьютерные игры пользуются огромной популярностью меня оно не обошло стороной. Я играю в CS:GO и Dota 2
+      </p>
+      <img width="500" height="300"  src="Cs.jpg" class="img_ss">
+    </div>
+    <div class="col"><strong><center><h5 class="p3">настольный теннис </h5></center></strong>
+    	<p>
+    		Мне нравится играть в настольный теннис. Меня на него подсадили друзья. Не думаю что прям хорошо умею играть. Но основы знаю.
+    	</p>
+    	<img width="500" height="300" src="pingpong.jpg" class="img_ss">
+    </div>
+    
+     <div class="col"><strong><center><h5 class="p3">Аниме</h5></center></strong>
+      <p>
+        Хорошое хобби для меня является почти основным развличением но футболом больше занимаюсь. 
+      </p>
+      <img width="500" height="300" src="anime.jpeg" class="img_ss">
+    </div>
+  	</div>
+	</div></center><hr><br>
+
+
+	<center><h3 class="p4">Способы со мной связатся </h2></center>
+	
+
+	<div class="form">
+		<div class="mb-3">
+	  		<label for="exampleFormControlInput1" class="form-label">Ф.И.О:</label>
+	  		<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Абенов Диас Галымжанович">
+		</div>
+
+		<div class="mb-3">
+	  		<label for="exampleFormControlInput1" class="form-label">Номер телефона:</label>
+	  		<input type="text" class="tel form-control" id="exampleFormControlInput1" placeholder="+7(707)-806-60-98">
+		</div>
+
+		<div class="mb-3">
+	  		<label for="exampleFormControlTextarea1" class="form-label">Сообщение:</label>
+	  		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		</div>
+	</div>
+
+	<button class="sub btn btn-danger" type="submit">Отправить</button>
+	<input type="hidden" name="status">
+	<hr>
+  </div>
+ <br>
+
+  <center><div class="footer" id="contact">
+  	<h5>Контактные данные:</h5>
+  	<h6>Номер телефона: +7(707)-806-60-98 <br> 
+   	Эл.Почта: dabenov@college-narxoz.kz
+
+  </div></center>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
